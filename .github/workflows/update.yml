@@ -67,4 +67,5 @@ jobs:
           node index.js
 
       - name: Check & Push
-        run: bash ./pushUpdate.sh
+        run: bash ./taffy-pvp-card-ds/pushUpdate.sh
+        shell: bash

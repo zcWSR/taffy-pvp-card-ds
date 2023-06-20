@@ -28,7 +28,6 @@ const characterData = Object.keys(characterJsonData).reduce((result, characterId
     const character = characterJsonData[characterId];
     if (isNaN(Number(characterId))) return result
     const { NameTextMapHash, Element, SideIconName } = character;
-    console.log(SideIconName, characterId)
     let image
     if (NameTextMapHash === 3816664530) {
       image = 'lumine';
@@ -64,7 +63,7 @@ const frTextMapHash = require("../GenshinData/TextMap/TextMapFR.json");
 const esTextMapHash = require("../GenshinData/TextMap/TextMapES.json");
 const deTextMapHash = require("../GenshinData/TextMap/TextMapDE.json");
 const chsTextMapHash = require("../GenshinData/TextMap/TextMapCHS.json");
-const chtTextMapHash = require("../GenshinData/TextMap/TextMapCHT.json");
+const chtTextMapHash = require("../GenshinData/TextMap/TextMapCHS.json");
 const itTextMapHash = require("../GenshinData/TextMap/TextMapIT.json");
 const trTextMapHash = require("../GenshinData/TextMap/TextMapTR.json");
 

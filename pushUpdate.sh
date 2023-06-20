@@ -1,5 +1,7 @@
 #!/bin/bash
 
+set -eo pipefail
+
 cd $GITHUB_WORKSPACE/taffy-pvp-card-ds
 git config --global user.name 'github-actions'
 git config --global user.email 'github-actions@github.com'
