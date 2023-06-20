@@ -63,7 +63,7 @@ const frTextMapHash = require("../GenshinData/TextMap/TextMapFR.json");
 const esTextMapHash = require("../GenshinData/TextMap/TextMapES.json");
 const deTextMapHash = require("../GenshinData/TextMap/TextMapDE.json");
 const chsTextMapHash = require("../GenshinData/TextMap/TextMapCHS.json");
-const chtTextMapHash = require("../GenshinData/TextMap/TextMapCHS.json");
+const chtTextMapHash = require("../GenshinData/TextMap/TextMapCHT.json");
 const itTextMapHash = require("../GenshinData/TextMap/TextMapIT.json");
 const trTextMapHash = require("../GenshinData/TextMap/TextMapTR.json");
 
