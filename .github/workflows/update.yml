@@ -1,0 +1,70 @@
+name: update json
+
+on:
+  push:
+    branches: [ "master" ]
+  pull_request:
+    branches: [ "master" ]
+  schedule:
+    # 每天 UTC/GMT+08:00 凌晨 2 点检查更新
+    - cron: '0 18 * * *'
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+        with:
+          path: taffy-pvp-card-ds
+
+      - name: Checkout enka
+        uses: actions/checkout@v3
+        with:
+          repository: EnkaNetwork/API-docs
+          fetch-depth: 1
+          path: enka
+          sparse-checkout: |
+            store/loc.json
+            store/characters.json
+    
+      - name: Checkout GenshinData
+        uses: actions/checkout@v3
+        with:
+          repository: Sycamore0/GenshinData
+          fetch-depth: 1
+          path: GenshinData
+          sparse-checkout: |
+            ExcelBinOutput/WeaponExcelConfigData.json
+            ExcelBinOutput/ReliquaryExcelConfigData.json
+            ExcelBinOutput/ReliquarySetExcelConfigData.json
+            ExcelBinOutput/EquipAffixExcelConfigData.json
+            TextMap/TextMapEN.json
+            TextMap/TextMapRU.json
+            TextMap/TextMapVI.json
+            TextMap/TextMapTH.json
+            TextMap/TextMapPT.json
+            TextMap/TextMapKR.json
+            TextMap/TextMapJP.json
+            TextMap/TextMapID.json
+            TextMap/TextMapFR.json
+            TextMap/TextMapES.json
+            TextMap/TextMapDE.json
+            TextMap/TextMapCHS.json
+            TextMap/TextMapCHT.json
+            TextMap/TextMapIT.json
+            TextMap/TextMapTR.json
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18.x'
+
+      - name: Update
+        run: |
+          cp -rf enka/store/loc.json taffy-pvp-card-ds/data/loc.json
+          cd taffy-pvp-card-ds
+          node index.js
+
+      - name: Check & Push
+        run: bash ./pushUpdate.sh
