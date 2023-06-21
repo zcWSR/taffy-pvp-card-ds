@@ -31,12 +31,13 @@ const characterData = Object.keys(characterJsonData).reduce((result, characterId
     let image
     if (NameTextMapHash === 3816664530) {
       image = 'lumine';
-    } else if (NameTextMapHash === 3816664530) {
+    } else if (NameTextMapHash === 1533656818) {
       image = 'aether';
+    } else {
+      image = SideIconName
+        .match(/_([a-zA-Z]+)$/)[1]
+        .replace(/^\w/, (c) => c.toLowerCase());
     }
-    image = SideIconName
-      .match(/_([a-zA-Z]+)$/)[1]
-      .replace(/^\w/, (c) => c.toLowerCase());
     result[characterId] = {
       nameTextMapHash: NameTextMapHash,
       element: Element.toLowerCase(),
