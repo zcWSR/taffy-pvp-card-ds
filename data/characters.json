@@ -343,5 +343,20 @@
     "nameTextMapHash": 2984815066,
     "element": "grass",
     "image": "baizhuer"
+  },
+  "10000083": {
+    "nameTextMapHash": 1225226258,
+    "element": "wind",
+    "image": "linette"
+  },
+  "10000084": {
+    "nameTextMapHash": 2472444970,
+    "element": "fire",
+    "image": "liney"
+  },
+  "10000085": {
+    "nameTextMapHash": 4201964354,
+    "element": "ice",
+    "image": "freminet"
   }
 }
