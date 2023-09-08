@@ -29,31 +29,12 @@ jobs:
             store/characters.json
     
       - name: Checkout GenshinData
-        uses: actions/checkout@v3
-        with:
-          repository: Sycamore0/GenshinData
-          fetch-depth: 1
-          path: GenshinData
-          sparse-checkout: |
-            ExcelBinOutput/WeaponExcelConfigData.json
-            ExcelBinOutput/ReliquaryExcelConfigData.json
-            ExcelBinOutput/ReliquarySetExcelConfigData.json
-            ExcelBinOutput/EquipAffixExcelConfigData.json
-            TextMap/TextMapEN.json
-            TextMap/TextMapRU.json
-            TextMap/TextMapVI.json
-            TextMap/TextMapTH.json
-            TextMap/TextMapPT.json
-            TextMap/TextMapKR.json
-            TextMap/TextMapJP.json
-            TextMap/TextMapID.json
-            TextMap/TextMapFR.json
-            TextMap/TextMapES.json
-            TextMap/TextMapDE.json
-            TextMap/TextMapCHS.json
-            TextMap/TextMapCHT.json
-            TextMap/TextMapIT.json
-            TextMap/TextMapTR.json
+        run: |
+          git clone --depth 1 --filter=blob:none --sparse https://gitlab.com/Dimbreath/AnimeGameData.git GenshinData
+          cd GenshinData
+          git sparse-checkout add "ExcelBinOutput"
+          git sparse-checkout add "TextMap"
+          cd ..
 
       - name: Setup Node.js
         uses: actions/setup-node@v3
