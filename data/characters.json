@@ -358,5 +358,15 @@
     "nameTextMapHash": 4201964354,
     "element": "ice",
     "image": "freminet"
+  },
+  "10000086": {
+    "nameTextMapHash": 370151050,
+    "element": "ice",
+    "image": "wriothesley"
+  },
+  "10000087": {
+    "nameTextMapHash": 1504902330,
+    "element": "water",
+    "image": "neuvillette"
   }
 }
