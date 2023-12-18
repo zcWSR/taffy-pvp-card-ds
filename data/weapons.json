@@ -327,6 +327,10 @@
     "type": "WEAPON_CLAYMORE",
     "nameTextMapHash": 2077869763
   },
+  "12426": {
+    "type": "WEAPON_CLAYMORE",
+    "nameTextMapHash": 933442195
+  },
   "12427": {
     "type": "WEAPON_CLAYMORE",
     "nameTextMapHash": 3693117451
@@ -370,6 +374,10 @@
   "12511": {
     "type": "WEAPON_CLAYMORE",
     "nameTextMapHash": 2834063555
+  },
+  "12512": {
+    "type": "WEAPON_CLAYMORE",
+    "nameTextMapHash": 3812523339
   },
   "13101": {
     "type": "WEAPON_POLE",
