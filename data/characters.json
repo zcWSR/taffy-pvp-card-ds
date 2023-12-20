@@ -378,5 +378,15 @@
     "nameTextMapHash": 2180900234,
     "element": "water",
     "image": "furina"
+  },
+  "10000090": {
+    "nameTextMapHash": 540313842,
+    "element": "fire",
+    "image": "chevreuse"
+  },
+  "10000091": {
+    "nameTextMapHash": 2877588578,
+    "element": "rock",
+    "image": "navia"
   }
 }
