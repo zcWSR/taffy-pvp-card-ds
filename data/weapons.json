@@ -667,6 +667,10 @@
     "type": "WEAPON_CATALYST",
     "nameTextMapHash": 4176923379
   },
+  "14515": {
+    "type": "WEAPON_CATALYST",
+    "nameTextMapHash": 3660626387
+  },
   "15101": {
     "type": "WEAPON_BOW",
     "nameTextMapHash": 3600623979
