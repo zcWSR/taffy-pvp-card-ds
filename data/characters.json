@@ -388,5 +388,15 @@
     "nameTextMapHash": 2877588578,
     "element": "rock",
     "image": "navia"
+  },
+  "10000092": {
+    "nameTextMapHash": 2822240322,
+    "element": "fire",
+    "image": "gaming"
+  },
+  "10000093": {
+    "nameTextMapHash": 3648220770,
+    "element": "wind",
+    "image": "liuyun"
   }
 }
