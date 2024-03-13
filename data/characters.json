@@ -398,5 +398,10 @@
     "nameTextMapHash": 3648220770,
     "element": "wind",
     "image": "liuyun"
+  },
+  "10000094": {
+    "nameTextMapHash": 1944606922,
+    "element": "rock",
+    "image": "chiori"
   }
 }
