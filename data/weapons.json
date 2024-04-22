@@ -515,6 +515,10 @@
     "type": "WEAPON_POLE",
     "nameTextMapHash": 4238339131
   },
+  "13512": {
+    "type": "WEAPON_POLE",
+    "nameTextMapHash": 2944936683
+  },
   "14101": {
     "type": "WEAPON_CATALYST",
     "nameTextMapHash": 3584825427
