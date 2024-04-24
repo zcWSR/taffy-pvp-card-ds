@@ -403,5 +403,10 @@
     "nameTextMapHash": 1944606922,
     "element": "rock",
     "image": "chiori"
+  },
+  "10000096": {
+    "nameTextMapHash": 167199474,
+    "element": "fire",
+    "image": "arlecchino"
   }
 }
