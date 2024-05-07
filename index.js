@@ -77,7 +77,7 @@ const equipAffixMap = {};
 
 reliquarySetJsonData.forEach((set) => {
   reliquarySetMap[set.setId] = {
-    affixId: set.EquipAffixId,
+    affixId: set.equipAffixId,
   };
 });
 
@@ -87,7 +87,7 @@ equipAffixJsonData.forEach((affix) => {
   };
 });
 
-const langs = ["en", "ru", "vi", "th", "pt", "kr", "jp", "id", "fr", "es", "de", "zh-TW", "zh-CN", "it", "tr"]
+const langs = ["en", "ru", "vi", "th", "pt", "kr", "jp", "id", "fr", "es", "de", "zh-tw", "zh-cn", "it", "tr"]
 
 const reliquariesLocData = langs.reduce((result, lang) => {
   result[lang] = {};
@@ -107,8 +107,8 @@ function addReliquariesLoc(textMapHash) {
   reliquariesLocData["fr"][textMapHash] = frTextMapHash[textMapHash];
   reliquariesLocData["es"][textMapHash] = esTextMapHash[textMapHash];
   reliquariesLocData["de"][textMapHash] = deTextMapHash[textMapHash];
-  reliquariesLocData["zh-TW"][textMapHash] = chtTextMapHash[textMapHash];
-  reliquariesLocData["zh-CN"][textMapHash] = chsTextMapHash[textMapHash];
+  reliquariesLocData["zh-tw"][textMapHash] = chtTextMapHash[textMapHash];
+  reliquariesLocData["zh-cn"][textMapHash] = chsTextMapHash[textMapHash];
   reliquariesLocData["it"][textMapHash] = itTextMapHash[textMapHash];
   reliquariesLocData["tr"][textMapHash] = trTextMapHash[textMapHash];
 }

@@ -48,5 +48,6 @@ jobs:
           node index.js
 
       - name: Check & Push
+        if: github.event_name != 'pull_request'
         run: bash ./taffy-pvp-card-ds/pushUpdate.sh
         shell: bash
