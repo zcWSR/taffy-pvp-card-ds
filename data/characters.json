@@ -404,9 +404,24 @@
     "element": "rock",
     "image": "chiori"
   },
+  "10000095": {
+    "nameTextMapHash": 781488962,
+    "element": "water",
+    "image": "sigewinne"
+  },
   "10000096": {
     "nameTextMapHash": 167199474,
     "element": "fire",
     "image": "arlecchino"
+  },
+  "10000097": {
+    "nameTextMapHash": 1431322346,
+    "element": "electric",
+    "image": "sethos"
+  },
+  "10000098": {
+    "nameTextMapHash": 2745369298,
+    "element": "electric",
+    "image": "clorinde"
   }
 }
