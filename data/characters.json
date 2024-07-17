@@ -423,5 +423,10 @@
     "nameTextMapHash": 2745369298,
     "element": "electric",
     "image": "clorinde"
+  },
+  "10000099": {
+    "nameTextMapHash": 1705786122,
+    "element": "grass",
+    "image": "emilie"
   }
 }
