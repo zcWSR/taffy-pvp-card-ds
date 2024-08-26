@@ -167,6 +167,10 @@
     "type": "WEAPON_SWORD_ONE_HAND",
     "nameTextMapHash": 594850707
   },
+  "11431": {
+    "type": "WEAPON_SWORD_ONE_HAND",
+    "nameTextMapHash": 3434743027
+  },
   "11501": {
     "type": "WEAPON_SWORD_ONE_HAND",
     "nameTextMapHash": 902264035
@@ -343,6 +347,10 @@
     "type": "WEAPON_CLAYMORE",
     "nameTextMapHash": 3693117451
   },
+  "12431": {
+    "type": "WEAPON_CLAYMORE",
+    "nameTextMapHash": 2481464075
+  },
   "12501": {
     "type": "WEAPON_CLAYMORE",
     "nameTextMapHash": 1089950259
@@ -386,6 +394,10 @@
   "12512": {
     "type": "WEAPON_CLAYMORE",
     "nameTextMapHash": 3812523339
+  },
+  "12513": {
+    "type": "WEAPON_CLAYMORE",
+    "nameTextMapHash": 1183454019
   },
   "13101": {
     "type": "WEAPON_POLE",
@@ -482,6 +494,10 @@
   "13427": {
     "type": "WEAPON_POLE",
     "nameTextMapHash": 882305891
+  },
+  "13431": {
+    "type": "WEAPON_POLE",
+    "nameTextMapHash": 415520051
   },
   "13501": {
     "type": "WEAPON_POLE",
@@ -639,6 +655,14 @@
     "type": "WEAPON_CATALYST",
     "nameTextMapHash": 2722902043
   },
+  "14427": {
+    "type": "WEAPON_CATALYST",
+    "nameTextMapHash": 422144187
+  },
+  "14431": {
+    "type": "WEAPON_CATALYST",
+    "nameTextMapHash": 3092853059
+  },
   "14501": {
     "type": "WEAPON_CATALYST",
     "nameTextMapHash": 807607555
@@ -690,6 +714,10 @@
   "14515": {
     "type": "WEAPON_CATALYST",
     "nameTextMapHash": 3660626387
+  },
+  "14516": {
+    "type": "WEAPON_CATALYST",
+    "nameTextMapHash": 1673987515
   },
   "15101": {
     "type": "WEAPON_BOW",
@@ -814,6 +842,10 @@
   "15427": {
     "type": "WEAPON_BOW",
     "nameTextMapHash": 1055195035
+  },
+  "15431": {
+    "type": "WEAPON_BOW",
+    "nameTextMapHash": 565052971
   },
   "15501": {
     "type": "WEAPON_BOW",
