@@ -428,5 +428,25 @@
     "nameTextMapHash": 1705786122,
     "element": "grass",
     "image": "emilie"
+  },
+  "10000100": {
+    "nameTextMapHash": 2531816890,
+    "element": "rock",
+    "image": "kachina"
+  },
+  "10000101": {
+    "nameTextMapHash": 4172712634,
+    "element": "grass",
+    "image": "kinich"
+  },
+  "10000102": {
+    "nameTextMapHash": 3949670506,
+    "element": "water",
+    "image": "mualani"
+  },
+  "11000046": {
+    "nameTextMapHash": 3986000746,
+    "element": "ice",
+    "image": "qin"
   }
 }
