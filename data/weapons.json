@@ -167,6 +167,10 @@
     "type": "WEAPON_SWORD_ONE_HAND",
     "nameTextMapHash": 594850707
   },
+  "11430": {
+    "type": "WEAPON_SWORD_ONE_HAND",
+    "nameTextMapHash": 495182275
+  },
   "11431": {
     "type": "WEAPON_SWORD_ONE_HAND",
     "nameTextMapHash": 3434743027
@@ -230,6 +234,10 @@
   "11515": {
     "type": "WEAPON_SWORD_ONE_HAND",
     "nameTextMapHash": 1009471939
+  },
+  "11516": {
+    "type": "WEAPON_SWORD_ONE_HAND",
+    "nameTextMapHash": 3432339555
   },
   "12101": {
     "type": "WEAPON_CLAYMORE",
@@ -346,6 +354,10 @@
   "12427": {
     "type": "WEAPON_CLAYMORE",
     "nameTextMapHash": 3693117451
+  },
+  "12430": {
+    "type": "WEAPON_CLAYMORE",
+    "nameTextMapHash": 688237043
   },
   "12431": {
     "type": "WEAPON_CLAYMORE",
@@ -494,6 +506,10 @@
   "13427": {
     "type": "WEAPON_POLE",
     "nameTextMapHash": 882305891
+  },
+  "13430": {
+    "type": "WEAPON_POLE",
+    "nameTextMapHash": 1965515667
   },
   "13431": {
     "type": "WEAPON_POLE",
