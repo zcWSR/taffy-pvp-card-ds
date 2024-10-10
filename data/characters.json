@@ -443,5 +443,20 @@
     "nameTextMapHash": 3949670506,
     "element": "water",
     "image": "mualani"
+  },
+  "10000103": {
+    "nameTextMapHash": 2515292882,
+    "element": "rock",
+    "image": "xilonen"
+  },
+  "10000901": {
+    "nameTextMapHash": 3293134650,
+    "element": "fire",
+    "image": "mavuika"
+  },
+  "11000046": {
+    "nameTextMapHash": 3986000746,
+    "element": "ice",
+    "image": "qin"
   }
 }
