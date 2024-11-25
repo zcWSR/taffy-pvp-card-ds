@@ -55,7 +55,11 @@ const equipAffixJsonData = require("../GenshinData/ExcelBinOutput/EquipAffixExce
 const enTextMapHash = require("../GenshinData/TextMap/TextMapEN.json");
 const ruTextMapHash = require("../GenshinData/TextMap/TextMapRU.json");
 const viTextMapHash = require("../GenshinData/TextMap/TextMapVI.json");
-const thTextMapHash = require("../GenshinData/TextMap/TextMapTH.json");
+const thTextMapHash = Object.assign(
+  {},
+  require("../GenshinData/TextMap/TextMapTH_1.json"),
+  require("../GenshinData/TextMap/TextMapTH_2.json"),
+);
 const ptTextMapHash = require("../GenshinData/TextMap/TextMapPT.json");
 const krTextMapHash = require("../GenshinData/TextMap/TextMapKR.json");
 const jpTextMapHash = require("../GenshinData/TextMap/TextMapJP.json");
